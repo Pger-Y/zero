@@ -12,3 +12,9 @@ variable "instance_name" {
   description = "EC2 instance name"
   default     = "Provisioned by Terraform"
 }
+
+variable "ec2_image" {
+  description = "ect image id"
+  type        = string
+  default     = "ami-0cdb93ace90e50c08"
+}
